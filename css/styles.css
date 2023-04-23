@@ -1,0 +1,362 @@
+/* Etiquetas Generales */
+body{
+    background-color: black;
+}
+img{
+    border-radius: 10px;
+}
+ul{
+list-style: none;
+}
+
+header{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: black;
+    width: 100%; 
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
+/* PAGINA INICIO */
+.barra-de-inicio{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+.imagenp{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: 350px;
+}
+.imagenp1{
+    background-image: url(../img/portadabuena.jpg);
+    height: 650px;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+#imagenesalgunos{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    
+}
+.grid-algunos{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+   justify-content: start
+   
+}
+#mapa{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    margin-left: 160px;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-mapa{
+    display: grid;
+    grid-template-columns: 30% auto;
+}
+#imagenesinicio{
+    margin-top: 70px;
+}
+
+.menu-inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    color: white;
+    flex-wrap: wrap;
+    }
+    .menu-inicio li{
+        background-color: black;
+        padding: 5px 10px;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+    
+    .menu-inicio a{
+        color: white;
+    }
+    
+
+    /* Servicios */
+    *.bodykit{
+        color: white;
+        background-color: black;
+        margin-top: 150px;
+        margin-left: 300px;
+        margin: 0 auto;
+        width: 500px;
+        max-width: 100%;
+        max-height: 100%;
+        font-family: 'Montserrat', sans-serif;;
+        border-top: solid white 5px;
+    
+    }
+    
+    *.pintura{
+        color: white;
+        font-family: 'Montserrat', sans-serif;;
+        margin-top: 150px;
+        margin-left: 300px;
+        margin-bottom: 1500px;
+        margin: 0 auto;
+        background-color: black;
+        width: 500px;
+        max-width: 100%;
+        max-height: 100%;
+        border-top: solid white 5px;
+    }
+    
+    *.Polarizado{
+        color: white;
+        background-color: black;
+        margin-top: 150px;
+        margin-left: 300px;
+        margin: 0 auto;
+        width: 500px;
+        max-width: 100%;
+        max-height: 100%;
+        font-family: 'Montserrat', sans-serif;;
+        border-top: solid white 5px;
+    
+    }
+    .menu-servicio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style: none;
+        color: white;
+        }
+    
+    .menu-servicio li{
+        background-color: black;
+        padding: 5px  10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .menu-servicio a{
+        color: white;
+    }
+
+    #body-servicios{
+        background-color: black;
+
+    }
+
+    #servicios{
+        margin-top: 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        
+    }
+
+    #padre-servicios{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+/* Contacto */
+form{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.contactom {
+    display: block;
+    text-align: center;
+}
+
+#contactomain{
+    margin-top: 300px;
+}
+
+.menu-contacto {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-contacto li{
+    background-color: black;
+        padding: 5px  10px;
+        font-family: 'Montserrat', sans-serif;
+  }
+
+  .menu-contacto a{
+    color: white;
+}
+
+
+/* Productos */
+.menu-productos{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-productos li{
+        background-color: black;
+        padding: 5px  10px;
+        font-family: 'Montserrat', sans-serif;
+}
+.menu-productos a{
+    color: white;
+
+}
+
+#productosmain{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.lista-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.titulo-productos{
+    text-align: center;
+}
+
+.card-productos1{
+  justify-content: center;
+}
+
+.card-productos2{
+    justify-content: center;
+  }
+  .card-productos3{
+    justify-content: center;
+  }
+.card-presupuesto{
+    color: white;
+    background-color: darksalmon;
+    padding: 8px 
+}
+/* Filtro productos */
+.container-opciones{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-opciones label{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: brown;
+}
+
+
+/* Ocultar radios */
+#suspension, #calcomanias, #luces, #todos-los-productos{
+    display: none;
+}
+
+
+/* Nosotros */
+.menu-nosotros{
+    display: flex;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-nosotros li{
+        background-color: black;
+        padding: 5px  10px;
+        font-family: 'Montserrat', sans-serif;
+}
+.menu-nosotros a{
+    color: white;
+}
+
+
+/* RESPONSIVE */
+@media screen and (min-width: 770px) {
+    .menu-inicio{
+        flex-direction: row;
+    }
+    .menu-servicio{
+        flex-direction: row;
+    }
+    .menu-contacto{
+        flex-direction: row;
+    }
+    .menu-productos{
+        flex-direction: row;
+    }
+    .menu-nosotros{
+        flex-direction: row;
+    }
+    .grid-mapa2{
+        width: 650px; height: 450px;
+    }
+
+    .lista-productos{
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .grid-algunos{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1050px){
+    .grid-mapa{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 100%;
+        max-height: 100%;
+        height: 1fr;
+        width: 1fr;
+        align-items: center;
+    }
+}
+
+@media (max-width: 900px){
+    #padre-servicios{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: auto;
+    }
+}
+
+
