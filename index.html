@@ -7,6 +7,9 @@
     <!-- FAVICON -->
     <link rel="shortcut icon" href="img/Logo.jpg">
     <title>TunningMania</title>
+    <!-- LINK A BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
     <!-- LINK A CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- FONTS -->
@@ -16,37 +19,50 @@
 </head>
 <body>
     <header id="arriba" class="header">
-        
-        <NAV>
-            
-            <ul class="menu-inicio">  
-           
-                <div class="imagen-titulo">
-                    <a href="index.html"><img width="250" height="100" src="img/logo-final.jpeg" alt="Logo"></a>
-                    </div>
-
-            <li><a href="index.html">Inicio</a></li>
-            
-            <li><a href="./pages/servicios.html">Servicios</a></li>
-          
-            <li><a href="./pages/productos.html">Productos</a></li>
-            
-            <li><a href="./pages/nosotros.html">Nosotros</a></li>
-
-            <li><a href="./pages/contacto.html">Contacto</a></li>
-        
-            </ul>
-    
-        </NAV>
-
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TUNNINGMANIA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                      </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Productos y Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="pages/productos.html">Productos</a></li>
+                      <li><a class="dropdown-item" href="pages/servicios.html">Servicios</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         </header>
         <main id="imagenesinicio">
-            <section class="imagenp">
-                <h1>Te ayudamos a descubrir tu estilo al mejor precio del mercado</h1>
-                <div id="video-auto"><video src="video.mp4"muted autoplay></video></div>
-                <div class="imagenp1"></div>
-    
-            </section>
+            <h1>Bienvenidos a TUNNINGMANIA, Tu lugar de confianza para el diseño de tu vehiculo</h1>
+         <section id="entrada-p">
+            <img src="img/portada-aa.jpg" alt="portada-aa">
+            <img src="img/portada-bb.jpg" alt="portada-bb">
+            <img src="img/portada-cc.jpg" alt="portada-cc">
+            <img src="img/portada-dd.jpg" alt="portada-dd">
+            <img src="img/blindado.jpg" alt="blindado">
+         </section>
             
     <section id="imagenesalgunos">
         <h2>Algunos de nuestros trabajos</h2>
@@ -55,7 +71,7 @@
         <div class="imagenesalgunos1"><img width="350" height="450" src="img/Paul Walker's 2002 Nissan Skyline r34.jpg" alt="Trabajo para el inicio 1"> </div> 
         <div class="imagenesalgunos2"><img width="350" height="450" src="img/Pin by Unknown -Kun on Need For Speed _ Best jdm cars, Toyota supra mk4, Sports cars luxury.jpg" alt=""> </div>
         <div class="imagenesalgunos3"><img width="350" height="450" src="img/amarillo.jpg" alt=""> </div>
-        <div class="imagenesalgunos4"><img img width="350" height="450" src="img/blindado.jpg" alt="blindado"></div>
+        <div class="imagenesalgunos4"><img width="350" height="450" src="img/blindado.jpg" alt="blindado"></div>
     </div>
     </section>
     
@@ -82,5 +98,6 @@
         <img src="img/Whatsapp _ Icono Gratis.png" alt="wsp" width="100px" height="100px">
         <img src="img/Your Body throughout Pregnancy.png" alt="ig" width="100px" height="100px">
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

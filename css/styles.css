@@ -8,14 +8,19 @@ img{
 ul{
 list-style: none;
 }
-
+h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 header{
     position: sticky;
     z-index: 1;
     top: 0;
-    background-color: black;
+    background-color: beige;
     width: 100%; 
     align-items: center;
+    color: white;
 }
 
 img{
@@ -33,38 +38,37 @@ img{
     max-height: 100%;
     margin: 0 auto;
 }
-.imagenp{
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    background-image: 350px;
-}
-.imagenp1{
-    background-image: url(../img/portadabuena.jpg);
-    height: 750px;
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
+#entrada-p{
+    display: flex;
+    width: 1000px;
+    height: 830px;
 }
 
-#video-auto{
-    background-size: cover;
-    height: 750px;
-    background-size: cover;
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
+#entrada-p img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .200 ease;
 }
+
+#entrada-p img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+
+
 #imagenesalgunos{
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    
+    color: white;  
 }
 .grid-algunos{
     display: grid;
